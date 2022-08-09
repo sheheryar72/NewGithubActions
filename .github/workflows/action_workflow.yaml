@@ -2,7 +2,7 @@ name: action_workflow
 on: push
 jobs: 
   echo-job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: echo
     steps:
       - name: "echo a string"
